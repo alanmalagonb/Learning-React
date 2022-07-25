@@ -1,5 +1,5 @@
 // Importing state
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 
 // Considering css file
 import "./ExpenseItem.css";
@@ -13,30 +13,32 @@ import Card from "../UI/Card";
 
 // 1 parameter props : atributes xml
 const ExpenseItem = (props) => {
-  
   // Hook: called inside react compoenent
   // First Array element: props value
   // Second element: updating function
-  const [title, setTitle] = useState(props.title);
+  //const [title, setTitle] = useState(props.title);
 
   // Event
   // function clickHandler(){}
-  const clickHandler = () => {
+  /*const clickHandler = () => {
     setTitle('Updated!');
-  };
+  };*/
 
   // Return JSX
   // Only 1 root element allowed
   // className instead of class
   return (
-    <Card className="expense-item">
-      <ExpenseDate date={props.date} />
-      <div className="expense-item__description">
-        <h2>{title}</h2>
-        <div className="expense-item__price">${props.amount}</div>
-      </div>
-      <button onClick={clickHandler}>Change Title</button>
-    </Card>
+    <li>
+      <Card className="expense-item">
+        <ExpenseDate date={props.date} />
+        <div className="expense-item__description">
+          <h2>{props.title}</h2>
+          <div className="expense-item__price">${props.amount}</div>
+        </div>
+
+        {/*<button onClick={clickHandler}>Change Title</button>*/}
+      </Card>
+    </li>
   );
 };
 // Export to use in other files
