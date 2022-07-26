@@ -9,6 +9,8 @@ const ChartBar = (props) => {
     barFillHeight = Math.round((props.value / props.maxValue) * 100) + '%';
   }
 
+
+  // Adding dynamic styles
   return (
     <div className='chart-bar'>
       <div className='chart-bar__inner'>
