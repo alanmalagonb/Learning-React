@@ -1,0 +1,38 @@
+Useful Links
+
+JavaScript
+
+-let & const
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+
+-ES6 Arrow Functions
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+-Reference vs Primitive Values/Types
+
+https://youtu.be/9ooYYRLdg_g
+
+-Array Functions
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+    -map()  => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+    -find()  => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+    -findIndex()  => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
+    -filter()  => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+    -reduce()  => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce?v=b
+    -concat()  => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat?v=b
+    -slice()  => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+    -splice()  => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+
+React
+
+https://es.reactjs.org/
+
+https://create-react-app.dev/
+
+https://styled-components.com/
