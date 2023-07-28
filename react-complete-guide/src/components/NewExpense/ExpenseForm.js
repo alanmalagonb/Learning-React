@@ -58,6 +58,17 @@ const ExpenseForm = (props) => {
     setEnteredDate("");
   };
 
+  // Alternative: Creating A Shared Handler Function
+  const inputChangeHandler = (identifier,value) => {
+    if(identifier === 'title'){
+      setEnteredTitle(value)
+    } else if(identifier==='date'){
+      setEnteredDate(value)
+    }else{
+      setEnteredAmount(value)
+    }
+  }
+
   // User Input
   // Two way binding value={entered}
   return (
@@ -68,7 +79,9 @@ const ExpenseForm = (props) => {
           <input
             type="text"
             value={enteredTitle}
-            onChange={titleChangeHandler}
+            onChange={(event) => {
+              inputChangeHandler('title',event.target.value)
+            }}
           />
         </div>
         <div className="new-expense__control">
