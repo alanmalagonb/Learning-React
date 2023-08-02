@@ -19,14 +19,14 @@ export const baseData = 10;
 
 // Default export
 // Choose the name
-import person from './person.js'
-import prs from './person.js'
+import person from './person.js.js'
+import prs from './person.js.js'
 
 // Named Exports
 // Name is defined by export
-import { baseData } from './utility.js'
-import { clean } from './utility.js'
+import { baseData } from './utility.js.js'
+import { clean } from './utility.js.js'
 
 // Aliases
-import { baseData as BD } from './utility.js'
-import * as bundled from './utility.js'
+import { baseData as BD } from './utility.js.js'
+import * as bundled from './utility.js.js'
